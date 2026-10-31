@@ -1,0 +1,14 @@
+name: RpgPlugin
+version: 1.0.0
+main: tr.rpg.RpgPlugin
+api-version: '1.21'
+description: Sinif, seviye, stat ve skill sistemi olan GUI'li RPG eklentisi
+commands:
+  rpg:
+    description: RPG menusu
+    usage: /rpg [sinif|stat|skill|bilgi|admin]
+    aliases: [karakter, sinif]
+permissions:
+  rpg.admin:
+    description: RPG admin komutlari
+    default: op
